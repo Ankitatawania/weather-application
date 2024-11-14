@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search-box">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" placeholder="Enter city name" class="input-box">
+                <button class="fa-solid fa-magnifying-glass" id="searchbtn" aria-hidden="false"></button>
+            </div>
+
+        </div>
+
+        <div class="location-not-found">
+            <h1>Sorry, Location not found!!!</h1>
+        </div>
+
+        <div class="weather-body">
+            <img src ="/asset/cloud.png" alt="weather Image" class="weather-img">
+            <div class="weather-box">
+                <p class="temperature">0<sup>°C</sup>
+                </p>
+                <p class="description">Light Rain
+
+                </p>
+
+            </div>
+            <div class="weather-details">
+                <div class="detail-box">
+                    <i class="fa-solid fa-droplet"></i>
+                    <div class="value" id="humidity">78%</div>
+                    <div class="description">Humidity</div>
+                </div>
+                <div class="detail-box">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="value" id="wind-speed">15 km/h</div>
+                    <div class="description">Wind Speed</div>
+                </div>
+                <div class="detail-box">
+                    <i class="fa-solid fa-gauge-simple"></i>
+                    <div class="value" id="pressure">1012 hPa</div>
+                    <div class="description">Pressure</div>
+                </div>
+                <div class="detail-box">
+                    <i class="fa-solid fa-cloud-sun"></i>
+                    <div class="value" id="sunrise">05:30</div>
+                    <div class="description">Sunrise</div>
+                </div>
+                <div class="detail-box">
+                    <i class="fa-solid fa-cloud-sun-rain"></i>
+                    <div class="value" id="sunset">20:45</div>
+                    <div class="description">Sunset</div>
+                </div>
+                <div class="detail-box">
+                    <i class="fa-solid fa-water"></i>
+                    <div class="value" id="sea-level">0 m</div>
+                    <div class="description">Sea Level</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/9eec5ee864.js" crossorigin="anonymous"></script>
+   
+    
+</body>
+</html>

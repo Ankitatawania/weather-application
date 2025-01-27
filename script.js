@@ -64,7 +64,7 @@ async function checkWeather(city){
             weather_img.src ="asset/snow.png";
             break;
        default:
-            weather_img.src="asset/default.png
+            weather_img.src="asset/default.png";
         
 
 

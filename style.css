@@ -12,7 +12,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('asset/background.jpg') ;
+    background: url('asset/backgrounds.jpg') ;
     background-size: cover;
     background-position: center;
     backdrop-filter: blur(3px);
